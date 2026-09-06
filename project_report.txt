@@ -1,0 +1,27 @@
+
+STARTUP FAILURE PREDICTION - FINAL REPORT
+==================================================
+
+Generated on: 2026-09-06 17:54:59
+
+1. DATASET OVERVIEW
+   - Total Records: 100000
+   - Features: 11
+   - Target Classes: ['Acquisition', 'Failure', 'IPO']
+
+2. MODEL PERFORMANCE (Logistic Regression)
+   - Accuracy: 0.7431
+   - Precision: 0.7389
+   - Recall: 0.7431
+   - F1-Score: 0.7377
+   - Training Time: 0.3 seconds
+
+3. CROSS-VALIDATION
+   - Mean F1 Score: 0.7367
+   - Standard Deviation: 0.0038
+
+4. MODEL COMPARISON
+   - Logistic Regression: F1=0.7377, Time=0.3s
+   - Random Forest: F1=0.7284, Time=5.6s
+   - XGBoost: F1=0.7317, Time=2.0s
+   - SGD SVM: F1=0.7308, Time=0.6s
